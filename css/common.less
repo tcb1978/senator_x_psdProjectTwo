@@ -2,178 +2,34 @@
 
 @icon-font-path : '../lib/bootstrap-3.3.5/fonts/';
 
-body{
-	background-color: #fff;
-
-	.container{
-	max-width: 1000px;
+.header-row {
+    padding: 10px 0px 10px 15px;
 }
 
-//HEADER
-
-#background {
-	background-image: url('/img/homePageBackgroundWithOverlay.png');background-repeat: no-repeat;
-	height: 750px;
-	width: 100%;
-	overflow: hidden;
-	background-attachment: scroll;
-	background-size: cover;
-	background-position: center top;
-}
-
-a.dropdown {
-    color: #fff;
-}
-
-.logo-header-row {
-    margin-top: 29px;
-}
-
-.logo-container {
-    width: 320px;
-    display: inline-block;
-    position: relative;
-}
-
-.navbar {
-    width: 600px;
-    position: relative;
-    display: inline-block;
-}
-
-ul.nav.nav-pills.nav-justified.hidden-sm.hidden-xs {
+div#logo {
     position: absolute;
     display: inline-block;
-    margin-top: 15px;
+    left: -25px;
 }
 
 span.glyphicon.glyphicon-search {
-    color: #fff;
-}
-//
-
-//	FEATURED PRESS -MIDDLE PAGE-
-.social-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #f6f6f6;
-}
-
-.featured {
-    color: #fff;
-}
-
-.press-section {
-    margin: 240px auto;
-}
-
-a.instagram-thumb {
-    height: 188px;
-    width: 189px;
-    display: inline-block;
-    position: relative;
-}
-
-.instagram-thumb.center {
-    margin: 0px 30px;
-}
-
-.thumbnails {
-    margin-bottom: 50px;
-}
-
-
-//
-// Page Bottom
-
-.page-bottom {
-    background-color: #fff;
-    padding-bottom: 100px
-}
-
-.hmPgBtnOne {
-	background-image: url('/img/button1.png');background-repeat: no-repeat;
-	height: 253px;
-	width: 300px;
-	overflow: hidden;
-}
-.hmPgBtnOneOverlay, .hmPgBtnTwoOverlay, .hmPgBtnThreeOverlay {
-    background-color: #034d6f;
-    opacity: 0.7;
-    height: 253px;
-    width: 300px;
-    overflow: hidden;
-    position: absolute;
-    display: inline-block;
-    bottom: 0pxs;
-}
-
-a.featured {
-    z-index: 2000;
-}
-
-.hmPgBtnTwo {
-    background-image: url('/img/button2.png');background-repeat: no-repeat;
-	height: 253px;
-	width: 300px;
-	overflow: hidden;
-}
-
-.hmPgBtnThree {
-	background-image: url('/img/button3.png');background-repeat: no-repeat;
-	height: 253px;
-	width: 300px;
-	overflow: hidden;
-}
-.int-pg-btn-cont {
-    margin-top: 50px;
-}
-
-.featbtnOne, .featbtnThree {
-	display: block;
-    position: absolute;
-    margin: 190px 75px;
-}
-
-.featbtnTwo{
-	display: block;
-    position: absolute;
-    margin: 140px 75px;
-}
-//
-
-//FOOTER
-
-.container.page-footer {
-    background-color: #f6f6f6;
-    padding-bottom: 10px;
-    max-width: 1100px;
-}
-
-.footer-row-locations {
-    padding: 0px 50px;
-}
-
-.foot{
-	color:#000;
-}
-
-span.glyphicon.glyphicon-search.foot{
-	color: #000;
-}
-
-#circle {
-    display: inline-block;
-    height: 21px;
-    width: 21px;
-    line-height: 15px;
-    -moz-border-radius: 30px;
-    border-radius: 15px;
-    background-color: orange;
-    color: #fff;
     font-size: 20px;
-    margin: 2px 5px;
-    padding: 0px 4px;
+    padding-left: 20px;
+    color: #4E596B;
 }
 
-}//end of body
+div#featured-issues {
+    background-image: url('/img/orangeBumpers.png');
+    height: 75px;
+    width: 100%
+}
+
+//remove gutters
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+////////////////
+
